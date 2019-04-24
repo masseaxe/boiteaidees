@@ -11,7 +11,7 @@
                 <table class="table ajax-action table-striped text-center">
                     <thead>
                     <tr>
-                        <th>Thème</th>
+                        <th>Thème prout</th>
                         <th>Idée</th>
                         <th>Avis</th>
                     </tr>

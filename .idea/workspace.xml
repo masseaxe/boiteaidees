@@ -2,157 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc50573b-d1ea-4419-afed-1e817548f941" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/blade.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/cmm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/htdocs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Console/Commands/Inspire.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Events/Event.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/IdeaController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/RateController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ThemeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/IdeaRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/RateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Request.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Idea.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Jobs/Job.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Listeners/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Policies/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Rate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Stat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Theme.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/compile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/debugbar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/ModelFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_01_07_102106_create_ideas_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_01_07_110942_update_ideas_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_01_08_104256_update2_ideas_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_01_09_090015_create_comments_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_01_15_101931_create_rates_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_01_21_131630_update3_ideas_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_01_23_132522_update_rates_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_01_24_085613_update1_rates_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_02_14_145941_create_clicIdea_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_02_15_114456_update4_ideas_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_02_25_093958_create_theme_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_02_25_102527_update5_ideas_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_03_25_101847_update1_themes_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_03_28_105718_update1_comments_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/backoff-app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/rates.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/hr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/statistiques_bleu_bouton2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/backoff-app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/graphe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/laravel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/emails/password.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/backoff/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/backoff/foot.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/backoff/head.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/backoff/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/backoff/side.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/503.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/flash/flash.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/idees/accueil.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/idees/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/idees/editTheme.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/idees/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/idees/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/idees/showcomments.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/idees/starrating.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/idees/stars.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/idees/stats.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/idees/stats_byauthor.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/idees/stats_countIdeas.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/idees/test.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/idees/theme.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/debugbar/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/idees/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/idees/index.blade.php" afterDir="false" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -209,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/idees/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="131">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -239,12 +90,31 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="git init" />
-      <command text="git add." />
+      <command text="git remote add https://github.com/masseaxe/boiteaidees.git" />
+      <command text="git merge" />
       <command text="git add ." />
       <command text="git push" />
-      <command text="git remote add boiteaidees https://github.com/masseaxe/boiteaidees.git" />
+      <command text="git remote add master https://github.com/masseaxe/boiteaidees.git" />
+      <command text="git push " />
+      <command text="git push master" />
+      <command text="    git push --set-upstream master master " />
+      <command text="git pull" />
+      <command text="git pull master" />
+      <command text="git remote add origin  https://github.com/masseaxe/boiteaidees.git" />
       <command text="git push" />
+      <command text="git init" />
+      <command text="git remote add origin  https://github.com/masseaxe/boiteaidees.git" />
+      <command text="git push master" />
+      <command text="git push -u origin master" />
+      <command text="git pull" />
+      <command text="git pull master" />
+      <command text="git pull origin master" />
+      <command text="git merge" />
+      <command text="git merge origin master" />
+      <command text="git fetch" />
+      <command text="git pull" />
+      <command text="git pull origin master" />
+      <command text="git push --force origin master" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -599,12 +469,12 @@
       <workItem from="1555502406857" duration="363000" />
       <workItem from="1555599268353" duration="6000" />
       <workItem from="1556107205103" duration="4098000" />
-      <workItem from="1556112021798" duration="370000" />
+      <workItem from="1556112021798" duration="944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201844000" />
+    <option name="totallyTimeSpent" value="202418000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -617,6 +487,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="224" y="1080" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25416666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1011,8 +882,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/idees/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="131">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
         </state>
       </provider>
     </entry>

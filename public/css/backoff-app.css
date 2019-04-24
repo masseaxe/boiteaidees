@@ -3,6 +3,13 @@
 * {
     font-family: 'Permanent Marker', cursive;
     font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+a {
+    font-size: initial;
+    color:initial;
 }
 
 h4 {
@@ -24,4 +31,50 @@ h4 {
     border:none;
     border-radius: 0;
     font-size: 1.25rem;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background: #fbfcfc;
+}
+
+.table td {
+    border: 0;
+    border-left: 2px solid #d8d7d7;
+    border-top:  2px solid #d8d7d7;
+    font-size: 1.15rem;
+}
+
+.table thead th {
+    border-left: 2px solid #d8d7d7;
+    border-top:0;
+    font-size: 1.15rem;
+}
+
+.table td:first-child, .table thead th:first-child {
+    border-left:0;
+}
+
+.table td:last-child {
+    padding: 0.35rem 0.75rem;
+}
+
+
+.badge {
+    font-size: 100%;
+    font-weight: 400;
+    border-radius: 0;
+    padding: 0.5em .5em;
+}
+
+.badge-dark {
+    background: linear-gradient(to right, #424242, #373737);
+}
+
+.badge-pink {
+    background-color:#ce6a93;
+    color:white;
+}
+
+.table .fa-star {
+    color:#bec0c1;
 }

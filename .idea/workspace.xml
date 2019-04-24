@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc50573b-d1ea-4419-afed-1e817548f941" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="cc50573b-d1ea-4419-afed-1e817548f941" name="Default" comment="delete prout">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/backoff-app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/backoff-app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/rates.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/rates.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backoff/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backoff/head.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/backoff/side.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backoff/side.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/idees/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/idees/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/idees/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/idees/index.blade.php" afterDir="false" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/backoff-app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="440">
+              <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -50,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/backoff/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+            <state relative-caret-position="330">
+              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -59,26 +65,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/idees/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/backoff/side.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/idees/show.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/idees/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/backoff/head.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/rates.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/backoff/side.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -98,7 +131,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="git remote add master https://github.com/masseaxe/boiteaidees.git" />
       <command text="git push " />
       <command text="git push master" />
       <command text="    git push --set-upstream master master " />
@@ -123,6 +155,7 @@
       <command text="git commit -m &quot;test prout&quot;" />
       <command text="git push" />
       <command text="    git push --set-upstream origin master " />
+      <command text="git push" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -137,7 +170,6 @@
         <option value="$PROJECT_DIR$/resources/views/idees/starrating.blade.php" />
         <option value="$PROJECT_DIR$/app/Rate.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_01_23_132522_update_rates_table.php" />
-        <option value="$PROJECT_DIR$/public/css/rates.css" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/database/migrations/2019_01_24_085613_update1_rates_table.php" />
         <option value="$PROJECT_DIR$/todo.txt" />
@@ -169,7 +201,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/ThemeController.php" />
         <option value="$PROJECT_DIR$/app/Theme.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/IdeaRequest.php" />
-        <option value="$PROJECT_DIR$/resources/views/idees/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/idees/accueil.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_28_105718_update1_comments_table.php" />
         <option value="$PROJECT_DIR$/app/Comment.php" />
@@ -179,12 +210,14 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/IdeaController.php" />
         <option value="$PROJECT_DIR$/resources/views/idees/stats_countIdeas.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/backoff/header.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/backoff/head.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/backoff/side.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/backoff/app.blade.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/resources/views/backoff/head.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/rates.css" />
         <option value="$PROJECT_DIR$/public/css/backoff-app.css" />
         <option value="$PROJECT_DIR$/resources/views/idees/index.blade.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/resources/views/idees/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backoff/side.blade.php" />
       </list>
     </option>
   </component>
@@ -477,12 +510,27 @@
       <workItem from="1555502406857" duration="363000" />
       <workItem from="1555599268353" duration="6000" />
       <workItem from="1556107205103" duration="4098000" />
-      <workItem from="1556112021798" duration="1030000" />
+      <workItem from="1556112021798" duration="6284000" />
     </task>
+    <task id="LOCAL-00001" summary="delete prout">
+      <created>1556113115487</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556113115488</updated>
+    </task>
+    <task id="LOCAL-00002" summary="delete prout">
+      <created>1556113144499</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556113144499</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202504000" />
+    <option name="totallyTimeSpent" value="207758000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,7 +548,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25416666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Command Line Tools Console" visible="true" weight="0.32902467" />
+      <window_info anchor="bottom" id="Command Line Tools Console" weight="0.32902467" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -545,6 +593,10 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="delete prout" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete prout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -668,13 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/rates.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -721,13 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/idees/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="67" column="77" selection-start-line="67" selection-start-column="77" selection-end-line="67" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -829,13 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/idees/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -853,45 +884,66 @@
     <entry file="file://$PROJECT_DIR$/resources/views/backoff/header.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/backoff/head.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/rates.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/backoff-app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="440">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/backoff/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backoff/side.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="330">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/idees/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/resources/views/idees/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="120">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/idees/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backoff/side.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
         </state>
       </provider>
     </entry>

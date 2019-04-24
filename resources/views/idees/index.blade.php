@@ -2,10 +2,13 @@
 
 @section('content')
 
-    <h1 class="page-title d-inline-block mr-2">Les idées de la boîte</h1>
-        <h4>Cliquez sur une idée pour en savoir + et donner votre avis</h4>
+    <div class="text-center">
+        <h1 class="page-title">Les idées de la boîte</h1>
+        <h4 class="d-inline-block">Cliquez sur une idée pour en savoir + et donner votre avis</h4>
+    </div>
 
-    <div class="row mt-5">
+
+    <div class="row mt-4">
         <div class="col-12 grid-margin">
             <div class="table-responsive">
                 <table class="table ajax-action table-striped text-center">
@@ -19,16 +22,22 @@
                     <tbody>
                     @forelse($ideas as $idea)
                         <tr>
-                            <th><a href="{{action("IdeaController@show" , $idea->uniqueId)}}" title="Modifier">{{$idea->title}}</a></th>
-                            <th>{{$idea->description}}</th>
-                            <th> @include('idees.stars', array('avg' => $idea->average) )&nbsp;&nbsp; {{$idea->countNotes}}</th>
+                            <!--<a href="{{action("IdeaController@show" , $idea->uniqueId)}}" title="Modifier"></a>-->
+                                <td><span class="badge badge-pink">{{$idea->title}}</span></td>
+                                <td><span class="badge badge-dark">{{$idea->description}}</span></td>
+                                <td class="text-muted">
+                                    @include('idees.stars', array('avg' => $idea->average) )<br>
+                                    <i class="fas fa-users pr-1"></i>{{$idea->countNotes}}
+                                    <i class="fas fa-comments ml-4 pr-1"></i>{{$idea->countNotes}}
+
+                                </td>
                             @if (Auth::user() != "")
-                            <th>
+                            <td>
                                 <a href="{{action("IdeaController@edit" , $idea->uniqueId)}}" title="Modifier"><i class="fa fa-camera-retro fa-lg" aria-hidden="true"></i></a>
                                 <a href="{{action("IdeaController@destroy" , $idea->uniqueId)}}"  title="Supprimer" data-confirm="Voulez-vous vraiment supprimer" data-method="delete"><i class="fa fa fa-fw fa-trash"></i></a>
-                           </th>
+                           </td>
                             @endif
-                        </tr>
+                        </tr></a>
                     @empty
                     @endforelse
                     </tbody>

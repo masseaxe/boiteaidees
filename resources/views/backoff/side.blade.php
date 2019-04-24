@@ -2,7 +2,7 @@
     <a href="{{URL::to('/')}}/logout"><button type="button" class="btn btn-secondary btn-xs mb-1" title="Logout">Logout</button></a>
 @endif
 
-<div class="logo p-2">
+<div class="logo p-4">
     <img src="{{ url('/img/logo.jpg') }}">
 </div>
 <img src="{{ url('/img/hr.png') }}">

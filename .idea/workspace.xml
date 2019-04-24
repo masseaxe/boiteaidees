@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc50573b-d1ea-4419-afed-1e817548f941" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/idees/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/idees/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,11 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/idees/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="131">
               <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -90,10 +98,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="git remote add https://github.com/masseaxe/boiteaidees.git" />
-      <command text="git merge" />
-      <command text="git add ." />
-      <command text="git push" />
       <command text="git remote add master https://github.com/masseaxe/boiteaidees.git" />
       <command text="git push " />
       <command text="git push master" />
@@ -115,6 +119,10 @@
       <command text="git pull" />
       <command text="git pull origin master" />
       <command text="git push --force origin master" />
+      <command text="git add ." />
+      <command text="git commit -m &quot;test prout&quot;" />
+      <command text="git push" />
+      <command text="    git push --set-upstream origin master " />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -126,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/migrations/2019_01_21_131630_update3_ideas_table.php" />
         <option value="$PROJECT_DIR$/resources/views/idees/starrating.blade.php" />
         <option value="$PROJECT_DIR$/app/Rate.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_01_23_132522_update_rates_table.php" />
@@ -177,6 +184,7 @@
         <option value="$PROJECT_DIR$/resources/views/backoff/app.blade.php" />
         <option value="$PROJECT_DIR$/public/css/backoff-app.css" />
         <option value="$PROJECT_DIR$/resources/views/idees/index.blade.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -469,12 +477,12 @@
       <workItem from="1555502406857" duration="363000" />
       <workItem from="1555599268353" duration="6000" />
       <workItem from="1556107205103" duration="4098000" />
-      <workItem from="1556112021798" duration="944000" />
+      <workItem from="1556112021798" duration="1030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202418000" />
+    <option name="totallyTimeSpent" value="202504000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -489,10 +497,10 @@
     <frame x="224" y="1080" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25416666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25416666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Command Line Tools Console" visible="true" weight="0.32902467" />
+      <window_info anchor="bottom" id="Command Line Tools Console" visible="true" weight="0.32902467" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -549,13 +557,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_15_101931_create_rates_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" selection-start-line="14" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_25_093958_create_theme_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
@@ -884,6 +885,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

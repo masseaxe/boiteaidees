@@ -1,0 +1,27 @@
+
+
+* {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 1.15rem;
+}
+
+#side {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+#content {
+    background-color:#eff2f4;
+    height: 100vh;
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #ffce01, #fdc00e);
+    border:none;
+    border-radius: 0;
+    font-size: 1.25rem;
+}

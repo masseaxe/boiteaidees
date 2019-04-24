@@ -1,0 +1,31 @@
+Dans le code de la modal  -> fait
+ - ne pas afficher l'ID idea
+ - mettre l'UNIQID de l'idée
+
+A la creation d'un idée
+ - ajout de l'uniqid dans la base -> fait
+
+Si possible une fois le vote effectué, remettre les étoiles en gris ???
+
+app.js
+
+- retour ajax SUCCESS
+  > fermer la fenêtre et réinitialiser les champs (email oui, fermeture oui)
+- retour ajax ERROR
+  > afficher un message d'erreur
+
+
+RateController@store
+  > créer un RateRequest
+  > faire la bidouille pour récupérer l'id de l'idea
+  > créer ton tableau (supprimer uniqid pour mettre id)
+
+RateRequest
+- contrôler que tu ais un uniqid idea existant
+- t'assurer d'avoir un email et de son format
+- t'assurer d'avoir une note au bon format
+- t'assurer que le couple email-id_idea n'eiste pas déjà (pour ne pas voter plusieurs fois) (ex: voteunique:email,uniqid)
+
+En plus
+
+Retirer le vote de l'ajout du commentaire

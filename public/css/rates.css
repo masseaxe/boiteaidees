@@ -1,0 +1,81 @@
+/***
+ *  Simple Pure CSS Star Rating Widget Bootstrap 4
+ *
+ *  www.TheMastercut.co
+ *
+ ***/
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+/* Styling h1 and links
+––––––––––––––––––––––––––––––––– */
+h1[alt="Simple"] {color: white;}
+a[href], a[href]:hover {color: grey; font-size: 0.5em; text-decoration: none}
+
+
+
+
+.starrating > input {display: none;}  /* Remove radio buttons */
+
+.starrating > label:before {
+    content: "\f005"; /* Star */
+    margin: 2px;
+    font-size: 4em;
+    font-family: FontAwesome;
+    display: inline-block;
+}
+
+.starrating > label
+{
+    color: #222222; /* Start color when not clicked */
+}
+
+.starrating > input:checked ~ label
+{ color: #ffca08 ; } /* Set yellow color when star checked */
+
+.yellow
+{
+    color: #ffca08 ;
+}
+
+.red
+{
+    color: #ff1719;
+}
+
+.black
+{
+    color: #040000;
+}
+
+.rating-star{
+    position: relative;
+    left:50%;
+    right:50%;
+    transform: translate(-75%,0%);
+}
+.rating-star > input { display: none; }
+.rating-star > label:before {
+    margin: 5px;
+    font-size:30px;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+}
+.rating-star > .half:before {
+    content: "\f089";
+    position: absolute;
+}
+.rating-star > label {
+    color: #ddd;
+    float: right;
+}
+.rating-star > input:checked ~ label,
+.rating-star:not(:checked) > label:hover,
+.rating-star:not(:checked) > label:hover ~ label { color: #FFD700;  }
+.rating-star > input:checked + label:hover,
+.rating-star > input:checked ~ label:hover,
+.rating-star > label:hover ~ input:checked ~ label,
+.rating-star > input:checked ~ label:hover ~ label { color: #FFED85;  }
+
+

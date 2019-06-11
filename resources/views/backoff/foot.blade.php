@@ -17,6 +17,19 @@
 <script src="{{ url('/js/backoff-app.js?v='.time() ) }}"></script>
 <script src="{{ url('/js/app.js?v='.time()) }}"></script>
 
+<!-- Chargement des animations au scroll -->
+<script>
+
+    ScrollReveal().reveal('aside', {
+        origin: 'left',
+        delay: 20,
+        reset: true,
+        distance: '100px',
+        duration: 3000
+    });
+
+</script>
+
 @if ((\Illuminate\Support\Facades\Route::getCurrentRoute()->getPath()) == 'ideas_stats_countIdeas')
     <!-- Chargement de highcharts-->
     <script src="https://code.highcharts.com/highcharts.js"></script>

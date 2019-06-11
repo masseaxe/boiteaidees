@@ -27,27 +27,22 @@ class Idea extends Model
     public function stats(){
         return $this->hasMany('App\Stat');
     }
+    
     public function theme(){
         return $this->belongsTo('App\Theme');
     }
 
     public function getAverageAttribute(){
-
         return round(Rate::where('idea_id' , $this->id)->avg('score'));
-
     }
 
     public function getCountNotesAttribute(){
-
         return Rate::where('idea_id' , $this->id)->count();
-
     }
 
     public static function getNbIdeasMois(){
-
         $Comptage = DB::table('ideas')->select(DB::raw('count(*) as combien'), DB::raw('month(created_at) as mois'), DB::raw('year(created_at) as annee'))->whereDeleted('0')->groupBy(DB::raw('month(created_at)'),DB::raw('year(created_at)'))->OrderBy(DB::raw('year(created_at)'), 'asc')->OrderBy(DB::raw('month(created_at)'), 'asc')->get();
         return $Comptage;
-
     }
 
 

@@ -1,8 +1,8 @@
 <div class="container" xmlns:input="http://www.w3.org/1999/html">
     <br>
     <br>
-    <div class="row">
-    <h2>{{count($idea-> comments)}} Commentaires  </h2> &nbsp;&nbsp;<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Ajouter un commentaire</button>
+    <div class="row rowcom">
+    <img src="{{ asset('img/conversation.png') }}" alt="" class="conv-img"><h2 class="h2com">{{count($idea-> comments)}} Commentaires  </h2> &nbsp;&nbsp;<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">+ Ajouter un commentaire</button>
    </div>
     <p></p>
     <div class="ex1">
@@ -15,17 +15,16 @@
         </tr>
         </thead>
         <tbody>
+        <?php $i = 0 ?>
         @forelse($idea->comments as $comment)
-        <tr>
-
+        <?php $i++ ?>
+        <tr class="color-{{ $i%2 }}">
             <td>{{$comment->contenu}}</td>
             @if (Auth::user() != "")
-
                 <td>
                     <a href="{{action("CommentController@destroy" , $comment->id)}}"  title="Supprimer" data-confirm="Voulez-vous vraiment supprimer" data-method="delete"><i class="fa fa fa-fw fa-trash"></i></a>
                 </td>
             @endif
-
         </tr>
         @empty
         @endforelse

@@ -31,6 +31,7 @@ class IdeaController extends Controller
     {
 
         $ideas = Idea::orderBy('title')->whereDeleted('0')->paginate(5);
+        $ideas->load('Comments');
         $themes = Theme::all();
         return view('idees.index' , compact('ideas', 'themes') );
     }

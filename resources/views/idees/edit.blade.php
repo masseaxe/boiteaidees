@@ -2,19 +2,17 @@
 
 @section('content')
 
-    <div class="row">
-        <div class="col-2">
-        <a href="{{action('IdeaController@index')}}" class="btn btn-info"><i class="fa fa-angle-left"></i> Retour</a>
-    </div>
-    <div class="col-10">
-        <h1 class="page-title">@if( $idea == null ) Je partage @else Je modiifie @endif mon idée @if( $idea != null ) @endif</h1>
-    </div>
-    </div>
 
 
+    <div class="container">
 
+        <h4 class="page-title d-inline-block mr-2">
+            @if( $idea == null ) Saisie @else Édition @endif d'une idée @if( $idea != null ) @endif
+        </h4>
 
-
+        <div class="float-right">
+            <a href="{{action('IdeaController@index')}}" class="btn btn-info blanc"><i class="fa fa-angle-left"></i>Retour aux idées</a>
+        </div>
 
         {!! Form::model(
             $idea,
@@ -26,7 +24,7 @@
         ) !!}
 
 
-    <div class="row">
+    <div class="row noflex">
         <div class="col-md-4">
             <div class="form-group">
                 <h6>Titre</h6>

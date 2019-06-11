@@ -9,6 +9,8 @@
 
 /* Styling h1 and links
 ––––––––––––––––––––––––––––––––– */
+h1[alt="Simple"] {color: white;}
+a[href], a[href]:hover {color: grey; font-size: 1.8em; text-decoration: none}
 
 
 
@@ -25,7 +27,7 @@
 
 .starrating > label
 {
-    color: #bec0c1!important; /* Start color when not clicked */
+    color: #222222; /* Start color when not clicked */
 }
 
 .starrating > input:checked ~ label
@@ -33,7 +35,7 @@
 
 .yellow
 {
-    color: #fdc00f!important; ;
+    color: #ffca08 ;
 }
 
 .red
@@ -48,9 +50,9 @@
 
 .rating-star{
     position: relative;
-    left:50%;
+    /*left:50%;
     right:50%;
-    transform: translate(-75%,0%);
+    transform: translate(-75%,0%);*/
 }
 .rating-star > input { display: none; }
 .rating-star > label:before {

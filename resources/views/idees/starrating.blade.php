@@ -1,6 +1,5 @@
-<div class="col-lg-4 col-sm-8 col-12 main-section text-center">
-
-    <fieldset class="rating-star text-center pl-5 pb-5" data-id="{{$id}}" id="content-{{$id}}">
+<div>
+    <fieldset class="rating-star text-center" data-id="{{$id}}" id="content-{{$id}}">
         <input type="radio" id="{{{$id}}}star5" name="rating" value="5" /><label class = "full" for="{{$id}}star5" title="Awesome - 5 stars"></label>
         <input type="radio" id="{{$id}}star4half" name="rating" value="4.5" /><label class="half" for="{{$id}}star4half" title="Pretty good - 4.5 stars"></label>
         <input type="radio" id="{{$id}}star4" name="rating" value="4" /><label class = "full" for="{{$id}}star4" title="Pretty good - 4 stars"></label>
